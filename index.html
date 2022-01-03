@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Aprendiendo HTML - CD</title>
+        <!--Este es un comentario.-->
+    </head>
+    <body>
+        <!--Los subtitulos son cada uno de menor grado al otro,
+        poner en base a la cantidad de títulos / subtitulos que usen-->
+        <h1>Título principal</h1>
+        <h2>Subtítulo</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sapiente, inventore itaque rerum corporis blanditiis, eveniet amet ut animi quis magnam, maiores voluptas accusantium. Ex doloremque consequuntur rerum corporis culpa.
+        </p>
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+        </ol>
+        <ul>
+            <li>Primero</li>
+            <li>Segundo</li>
+            <li>Tercero</li>
+        </ul>
+
+        <form>
+            <div>
+                <label for="nombreUsuario">Nombre: </label><input type="text" name="nombreUsuario" id="nombreUsuario"/>
+            </div>
+            <div>
+                <label for="nombreApellido">Apellido: </label><input type="text" name="nombreApellido" id="nombreApellido"/>
+            </div>
+            <div>
+                <label for="passwordUsuario">Contraseña: </label><input type="password" name="passwordUsuario" id="passwordUsuario">
+            </div>
+            <div>
+                <label for="peliculaMatrix">Matrix: </label><input type="radio" name="peliculas" id="peliculaMatrix">
+                <label for="peliculaSpiderman">Spiderman: </label><input type="radio" name="peliculas" id="peliculaSpiderman">
+                <label for="peliculaThor">Thor: </label><input type="radio" name="peliculas" id="peliculaThor">
+            </div>
+            <div>
+                <label for="tomate">Tomate</label>
+                <input type="checkbox" name="verduras" id="tomate">
+                <label for="lechuga">lechuga</label>
+                <input type="checkbox" name="verduras" id="lechuga">
+                <label for="otro">otro</label>
+                <input type="checkbox" name="verduras" id="otro">
+            </div>
+            <div>
+                <label for="pais">País: </label>
+                <select id="pais" name="pais">
+                    <option value="peru">Perú</option>
+                    <option value="chile">Chile</option>
+                    <option value="ecuador">Ecuador</option>
+                </select>
+            </div>
+            <div>
+                <label for="comentario">Deja tu comentario:</label>
+                <textarea id="comentario" name="comentario"></textarea>
+            </div>
+            <button type="submit">
+                Enviar
+            </button>
+        </form>
+        <img src="./imagenes/gatito.jpg" alt="Imagen">
+        <a href="https://www.google.com">Google</a>
+    </body>
+</html>

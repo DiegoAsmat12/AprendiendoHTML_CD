@@ -1,0 +1,51 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    color: blue;
+}
+.navegacion{
+    color: red;
+    display: inline;
+}
+.navegacion.especial{
+    /* ambas clases */
+    color:purple;
+}
+#pais{
+    width: 200px;
+    height: 30px;
+}
+
+div{
+    border: 1px solid #2b2e41;
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+}
+#principal{
+    color: lightblue;
+    background-color: black;
+    padding: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boton-submit{
+    width: 80px;
+    height: 35px;
+    
+    background-color: rgb(255, 154, 59);
+    color: black;
+    border-style: none;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+.boton-submit:hover{
+    background-color: rgb(255, 189, 102);
+    cursor: pointer;
+}
+.numeros > li{
+    color: rgb(150, 35, 245);
+}

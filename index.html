@@ -3,25 +3,26 @@
     <head>
         <meta charset="UTF-8" />
         <title>Aprendiendo HTML - CD</title>
+        <link rel="stylesheet" href="./css/index.css">
         <!--Este es un comentario.-->
     </head>
     <body>
         <nav>
             <ul>
-                <li class="navegacion">Home</li>
+                <li class="navegacion especial">Home</li>
                 <li class="navegacion">About</li>
             </ul>
         </nav>
         <!--Los subtitulos son cada uno de menor grado al otro,
         poner en base a la cantidad de títulos / subtitulos que usen-->
         <section>
-            <h1>Título principal</h1>
+            <h1 id="principal">Título principal</h1>
             <h2>Subtítulo</h2>        
         </section>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sapiente, inventore itaque rerum corporis blanditiis, eveniet amet ut animi quis magnam, maiores voluptas accusantium. Ex doloremque consequuntur rerum corporis culpa.
         </p>
         
-        <ol>
+        <ol class="numeros">
             <li>Elemento 1</li>
             <li>Elemento 2</li>
         </ol>
@@ -67,7 +68,7 @@
                     <label for="comentario">Deja tu comentario:</label>
                     <textarea id="comentario" name="comentario"></textarea>
                 </div>
-                <button type="submit">
+                <button type="submit" class="boton-submit">
                     Enviar
                 </button>
             </form>
